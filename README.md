@@ -378,9 +378,6 @@ grid_rf = GridSearchCV(
 
 grid_rf.fit(X_train, y_train)
 
-rf_scores = cross_val_score(grid_rf.best_estimator_, X_train, y_train, cv=5)
-print("Cross-validation mean accuracy (Random Forest):", rf_scores.mean())
-
 print("Best parameters for RandomForestClassifier:", grid_rf.best_params_)
 print("Best score RandomForestClassifier:", grid_rf.best_score_)
 ```
