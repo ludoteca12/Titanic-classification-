@@ -7,7 +7,7 @@ Random Forest Classifier
 
 K-Nearest Neighbors (KNN)
 
-The dataset comes from the classic (Kaggle Titanic competition)[https://www.kaggle.com/competitions/titanic/overview]
+The dataset comes from the classic [Kaggle Titanic competition](https://www.kaggle.com/competitions/titanic/overview)
 
 ## 1. Importing the Libraries
 
@@ -281,7 +281,7 @@ full_df = full_df.drop(columns=["Name", "Ticket", "Cabin", "PassengerId"])
 
 Let's take a look on what the data looks like now
 
-```
+
 |    |   Survived |   Age |   SibSp |   Parch |    Fare |   Has_Cabin |   Upper_class |   Middle_class |   Lower_class |   Cherbourg |   Queenstown |   Southampton |   Female |   Male |
 |---:|-----------:|------:|--------:|--------:|--------:|------------:|--------------:|---------------:|--------------:|------------:|-------------:|--------------:|---------:|-------:|
 |  0 |          0 |    22 |       1 |       0 |  7.25   |           0 |             0 |              0 |             1 |           0 |            0 |             1 |        0 |      1 |
@@ -289,7 +289,7 @@ Let's take a look on what the data looks like now
 |  2 |          1 |    26 |       0 |       0 |  7.925  |           0 |             0 |              0 |             1 |           0 |            0 |             1 |        1 |      0 |
 |  3 |          1 |    35 |       1 |       0 | 53.1    |           1 |             1 |              0 |             0 |           0 |            0 |             1 |        1 |      0 |
 |  4 |          0 |    35 |       0 |       0 |  8.05   |           0 |             0 |              0 |             1 |           0 |            0 |             1 |        0 |      1 |
-```
+
 
 ## 5. Splitting Training and Test Sets
 
